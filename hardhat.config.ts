@@ -1,4 +1,4 @@
-4444import "module-alias/register";
+import "module-alias/register";
 
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomiclabs/hardhat-etherscan";

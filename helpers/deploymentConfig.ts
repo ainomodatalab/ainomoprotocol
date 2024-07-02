@@ -1,4 +1,4 @@
-import { Contract } from "ethers";
+2import { Contract } from "ethers";
 import { ethers } from "hardhat";
 
 export interface Feed {

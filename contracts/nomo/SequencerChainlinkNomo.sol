@@ -20,7 +20,7 @@ contract SequencerChainlinkNomo is ChainlinkNomo {
     }
 
     function isSequencerActive() internal view returns (bool) {
-        (, int256 answer, uint256 startedAt, , ) = sequencer.latestRoundData();
+        (int256 answer, uint256 startedAt) = sequencer.latestRoundData();
         if (block.timestamp - startedAt <= GRACE_PERIOD_TIME || answer == 1) return false;
         return true;
     }

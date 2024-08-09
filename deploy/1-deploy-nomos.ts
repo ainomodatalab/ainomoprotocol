@@ -1,4 +1,4 @@
-4import hre from "hardhat";
+44import hre from "hardhat";
 import { DeployFunction } from "hardhat-deploy/dist/types";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
